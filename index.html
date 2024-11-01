@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Instagram</div>
+            <input type="text" placeholder="Search" class="search-bar">
+            <div class="nav-icons">
+                <a href="#"><i class="icon-home"></i></a>
+                <a href="#"><i class="icon-messages"></i></a>
+                <a href="#"><i class="icon-notifications"></i></a>
+                <a href="#"><i class="icon-profile"></i></a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="feed">
+            <article class="post">
+                <div class="post-header">
+                    <img src="./pic/rahul.jpg" alt="User" class="profile-pic">
+                    <span class="username">rahul_p.27</span>
+                </div>
+                <img src="./pic/grp1.JPG" alt="Post Image" class="post-image">
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <button class="comment-btn">Comment</button>
+                    <button class="share-btn">Share</button>
+                </div>
+                <div class="post-comments">
+                    <p><strong>rahul_p.27</strong> Great post!</p>
+                </div>
+                <input type="text" placeholder="Add a comment..." class="comment-input">
+            </article>
+            <!-- Repeat for more posts -->
+        </section>
+
+        <aside class="sidebar">
+            <!-- User profile and suggestions -->
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
